@@ -51,7 +51,7 @@ public class ServletInventario extends HttpServlet {
             for (Producto p : data.values()) {
                 if (param == null || p.getNombre().contains(param)) {
                     out.append("<li>");
-                    out.append(p.getNombre());
+                    out.append(p.getNombre()+" "+"Q. "+p.getPrecio());
                     out.append("</li>");
                 }
             }

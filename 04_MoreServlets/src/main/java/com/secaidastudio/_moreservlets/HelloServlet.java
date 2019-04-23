@@ -25,7 +25,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     public void destroy() {
         super.destroy(); 
-        System.out.println("Hasta la vida HelloServlet");
+        System.out.println("Hasta la vista HelloServlet");
     }
 
     @Override

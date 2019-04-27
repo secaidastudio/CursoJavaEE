@@ -17,7 +17,7 @@ public class Producto {
         this.tipo = tipo;
         this.precio = precio;
     }
-    
+
     public Integer getCodigo() {
         return codigo;
     }
@@ -49,5 +49,5 @@ public class Producto {
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
-        
+
 }
